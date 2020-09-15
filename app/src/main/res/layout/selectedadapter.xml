@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/selectColor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:textStyle="bold"
+        android:text="Colors"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:id="@+id/colorDelete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:src="@drawable/ic_baseline_cancel_24"/>
+
+
+
+</LinearLayout>
